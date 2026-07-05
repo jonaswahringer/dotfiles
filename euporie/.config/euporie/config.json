@@ -1,19 +1,13 @@
 {
     "enable_language_servers": true,
     "autosuggest": "smart",
+    "autocomplete": true,
     "graphics": "kitty",
     "edit_mode": "micro",
     "key_bindings": {
         "euporie.apps.notebook.app.NotebookApp": {
             "show-context-help": ["f1"],
             "toggle-menu": ["f10"]
-        },
-        "euporie.core.widgets.inputs.KernelInput": {
-            "backward-delete-word": ["\u001b\u007f"],
-            "cursor-left-word": ["\u001bb"],
-            "cursor-right-word": ["\u001bf"],
-            "cursor-left-word-extend": ["\u001b[1;10D"],
-            "cursor-right-word-extend": ["\u001b[1;10C"]
         }
     }
 }
