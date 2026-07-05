@@ -1,1 +1,17 @@
 macos-option-as-alt = true
+
+# Word jump: Option+arrows -> Alt+b / Alt+f (euporie defaults)
+keybind = alt+left=esc:b
+keybind = alt+right=esc:f
+
+# Select word: Option+shift+arrows
+keybind = alt+shift+right=csi:1;4C
+keybind = alt+shift+left=csi:1;4D
+
+# Line start/end: Cmd+arrows -> Home / End
+keybind = cmd+left=csi:H
+keybind = cmd+right=csi:F
+
+# Select to line end/start: Cmd+Shift+arrows -> Shift+End / Shift+Home
+keybind = cmd+shift+right=csi:1;2F
+keybind = cmd+shift+left=csi:1;2H
