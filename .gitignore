@@ -1,0 +1,5 @@
+**/cache/
+**/*.log
+**/auth.json
+**/credentials*
+.DS_Store
