@@ -1,6 +1,6 @@
 macos-option-as-alt = true
 
-# Word jump: Option+arrows -> Alt+b / Alt+f (euporie defaults)
+# Word jump: Option+arrows -> Alt+b / Alt+f
 keybind = alt+left=esc:b
 keybind = alt+right=esc:f
 
