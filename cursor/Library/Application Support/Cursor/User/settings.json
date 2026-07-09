@@ -1,0 +1,71 @@
+{
+    "window.commandCenter": true,
+    "go.toolsManagement.autoUpdate": true,
+    "git.autofetch": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "editor.inlineSuggest.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "window.autoDetectColorScheme": false,
+    "update.releaseTrack": "dev",
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": false,
+    "vim.leader": "<space>",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "j"],
+            "after": ["5", "j"]
+        },
+        {
+            "before": ["<leader>", "k"],
+            "after": ["5", "k"]
+        },
+        {
+            "before": ["<leader>", "J"],
+            "after": ["1", "0", "j"]
+        },
+        {
+            "before": ["<leader>", "K"],
+            "after": ["1", "0", "k"]
+        },
+        {
+            "before": ["<leader>", "g"],
+            "after": ["g", "g"]
+        },
+        {
+            "before": ["<leader>", "G"],
+            "after": ["G"]
+        },
+        {
+            "before": ["<leader>", "["],
+            "after": ["[", "{"]
+        },
+        {
+            "before": ["<leader>", "]"],
+            "after": ["]", "}"]
+        },
+        {
+            "before": ["n"],
+            "after": ["*"]
+        },
+        {
+            "before": ["b"],
+            "after": ["#"]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-c>": false,
+        "<C-f>": false,
+        "<C-v>": false,
+        "<C-x>": false,
+        "<C-z>": false
+    }
+}

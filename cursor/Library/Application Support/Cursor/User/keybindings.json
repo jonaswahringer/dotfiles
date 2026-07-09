@@ -1,0 +1,85 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "cmd+i",
+        "command": "composerMode.agent"
+    },
+    {
+        "key": "shift+cmd+'",
+        "command": "cursor.openBranchMenu",
+        "when": "composerFocused && cursor.agentIdeUnification.featureGate"
+    },
+    {
+        "key": "cmd+'",
+        "command": "-cursor.openBranchMenu",
+        "when": "composerFocused && cursor.agentIdeUnification.featureGate"
+    },
+    {
+        "key": "cmd+'",
+        "command": "editor.action.inlineSuggest.trigger"
+    },
+    {
+        "key": "shift+cmd+space",
+        "command": "workbench.action.quickOpenWithModes"
+    },
+    {
+        "key": "alt+shift+left",
+        "command": "cursorWordStartLeftSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+shift+right",
+        "command": "cursorWordEndRightSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+shift+up",
+        "command": "cursorUpSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+shift+down",
+        "command": "cursorDownSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+backspace",
+        "command": "deleteAllLeft",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+k",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+left",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+shift+left",
+        "command": "cursorHomeSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+right",
+        "command": "cursorEnd",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+shift+right",
+        "command": "cursorEndSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+left",
+        "command": "cursorWordStartLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "cursorWordEndRight",
+        "when": "editorTextFocus"
+    }
+]
