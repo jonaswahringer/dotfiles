@@ -20,20 +20,28 @@
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
-            "before": ["<leader>", "j"],
+            "before": ["j"],
             "after": ["5", "j"]
         },
         {
-            "before": ["<leader>", "k"],
+            "before": ["k"],
             "after": ["5", "k"]
         },
         {
-            "before": ["<leader>", "J"],
+            "before": ["J"],
             "after": ["1", "0", "j"]
         },
         {
-            "before": ["<leader>", "K"],
+            "before": ["K"],
             "after": ["1", "0", "k"]
+        },
+        {
+            "before": ["m"],
+            "after": ["j"]
+        },
+        {
+            "before": [","],
+            "after": ["k"]
         },
         {
             "before": ["<leader>", "g"],
