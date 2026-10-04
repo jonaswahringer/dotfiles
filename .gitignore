@@ -3,3 +3,4 @@
 **/auth.json
 **/credentials*
 .DS_Store
+**/*.rayconfig
